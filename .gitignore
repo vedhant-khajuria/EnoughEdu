@@ -1,0 +1,15 @@
+/config/config.php
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/cache/*
+!/storage/cache/.gitkeep
+/storage/resource-library/*.pdf
+/storage/resource-library/previews/
+/uploads/avatars/*
+!/uploads/avatars/.gitkeep
+/downloads/*.apk
+/node_modules/
+*.zip
+.env
+.DS_Store
+Thumbs.db

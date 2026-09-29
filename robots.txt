@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /checkout
+Disallow: /onboarding
+Disallow: /auth/
+Disallow: /payment/
+Disallow: /storage/
+Disallow: /config/
+Sitemap: https://enoughedu.vedhant.in/sitemap.xml
+Sitemap: https://enoughedu.vedhant.in/resources-sitemap.xml

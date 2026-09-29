@@ -1,0 +1,12 @@
+# EnoughEdu
+
+EnoughEdu is an engineering student toolkit and a portfolio project by Vedhant Khajuria.
+
+- Website: https://enoughedu.vedhant.in
+- Portfolio: https://vedhant.in
+- Contact: hello@vedhant.in
+- Tools: https://enoughedu.vedhant.in/tools
+- Resources: https://enoughedu.vedhant.in/resources
+- Pricing: https://enoughedu.vedhant.in/pricing
+
+Features include academic calculators, study planners, career tools and browser-based PDF utilities. Some features require an account or a purchase. Current availability and prices are shown on the website.
