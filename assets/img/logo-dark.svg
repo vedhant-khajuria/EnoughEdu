@@ -1,0 +1,49 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 520 112"
+    role="img"
+    aria-labelledby="title desc"
+>
+    <title id="title">EnoughEdu</title>
+    <desc id="desc">EnoughEdu infinity book circuit mark</desc>
+    <defs>
+        <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+            <stop stop-color="#60a5fa" />
+            <stop offset=".5" stop-color="#22d3ee" />
+            <stop offset="1" stop-color="#a78bfa" />
+        </linearGradient>
+    </defs>
+    <g fill="none" stroke="url(#g)" stroke-linecap="round" stroke-linejoin="round">
+        <path
+            stroke-width="9"
+            d="M20 58c0-24 27-35 45-18l25 25 25-25c18-17 45-6 45 18s-27 35-45 18L90 51 65 76C47 93 20 82 20 58Z"
+        />
+        <path stroke-width="6" d="M48 34v-9l42-15 42 15v9M90 14v27" />
+        <path stroke-width="4" d="M55 58v16m70-16v16M90 65v18m-35-9H42m83 0h13M90 83v10" />
+        <circle cx="38" cy="74" r="3" fill="#60a5fa" stroke="none" />
+        <circle cx="142" cy="74" r="3" fill="#a78bfa" stroke="none" />
+        <circle cx="90" cy="97" r="3" fill="#22d3ee" stroke="none" />
+    </g>
+    <text
+        x="182"
+        y="69"
+        fill="#f8fafc"
+        font-family="Inter,Arial,sans-serif"
+        font-size="46"
+        font-weight="800"
+        letter-spacing="-2"
+    >
+        EnoughEdu
+    </text>
+    <text
+        x="184"
+        y="94"
+        fill="#94a3b8"
+        font-family="Inter,Arial,sans-serif"
+        font-size="13"
+        font-weight="600"
+        letter-spacing=".4"
+    >
+        YOUR ACADEMIC TOOLKIT FOR THE ENTIRE DEGREE
+    </text>
+</svg>

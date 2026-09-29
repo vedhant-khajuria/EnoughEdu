@@ -1,0 +1,122 @@
+.rl-heading {
+    font-size: clamp(30px, 4vw, 52px);
+    margin: 20px 0;
+}
+.rl-actions,
+.rl-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 24px 0;
+}
+.rl-pages {
+    max-width: 900px;
+    margin: auto;
+}
+.rl-pages figure {
+    margin: 24px 0;
+    background: var(--solid);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    overflow: hidden;
+}
+.rl-pages img {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+}
+.rl-pages figcaption {
+    text-align: center;
+    color: var(--muted);
+    font-size: 12px;
+    padding: 10px;
+}
+.rl-branches {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    padding: 18px;
+    margin: 18px 0;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+}
+.rl-branches legend {
+    font-weight: 700;
+    padding: 0 8px;
+}
+.rl-branches label {
+    display: flex;
+    gap: 9px;
+    align-items: baseline;
+}
+.rl-consent {
+    display: block;
+    line-height: 1.6;
+    margin: 18px 0;
+}
+.rl-price {
+    font-size: 34px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+.rl-price small {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--muted);
+}
+.rl-dialog {
+    position: fixed;
+    width: min(500px, calc(100% - 32px));
+    max-height: calc(100dvh - 32px);
+    overflow: auto;
+    padding: 32px;
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    background: var(--solid);
+    color: var(--text);
+    box-shadow: 0 24px 80px #0005;
+}
+.rl-dialog::backdrop {
+    background: #081326ad;
+}
+.rl-dialog h2 {
+    font-size: 28px;
+    margin: 20px 0;
+}
+.rl-close {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 0;
+    color: var(--muted);
+    font-size: 28px;
+    cursor: pointer;
+}
+.rl-dialog button:focus-visible,
+.rl-dialog a:focus-visible {
+    outline: 3px solid var(--blue);
+    outline-offset: 3px;
+}
+#rm-checkout-summary {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+}
+button[hidden] {
+    display: none !important;
+}
+@media (max-width: 600px) {
+    .rl-branches {
+        grid-template-columns: 1fr;
+    }
+    .rl-dialog {
+        padding: 28px 20px;
+    }
+}

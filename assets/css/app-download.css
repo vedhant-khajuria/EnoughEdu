@@ -1,0 +1,172 @@
+.app-download-hero {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    align-items: center;
+    gap: 70px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.app-download-hero h1 {
+    font-size: clamp(38px, 5vw, 66px);
+    line-height: 1.08;
+    margin: 24px 0;
+}
+.app-download-lead {
+    font-size: 19px;
+    color: var(--muted);
+    max-width: 580px;
+    margin-bottom: 30px;
+}
+.app-download-note {
+    font-size: 13px;
+    color: var(--muted);
+    max-width: 600px;
+    margin: 18px 0;
+}
+.app-browser-link {
+    display: inline-block;
+    color: var(--blue);
+    font-weight: 600;
+    margin-top: 8px;
+}
+.app-download-card {
+    border: 1px solid var(--line);
+    border-radius: 32px;
+    text-align: center;
+    padding: 48px 28px;
+    background:
+        linear-gradient(145deg, rgba(37, 99, 235, 0.12), rgba(139, 92, 246, 0.08)), var(--solid);
+    box-shadow: var(--shadow);
+}
+.app-download-card h2 {
+    font-size: 38px;
+}
+.app-download-card > p:not(.app-kicker) {
+    color: var(--muted);
+    font-size: 18px;
+}
+.app-kicker {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    font-weight: 800;
+    color: var(--blue);
+    margin: 24px 0 12px;
+}
+.app-card-links {
+    display: grid;
+    gap: 10px;
+    margin: 26px 0;
+}
+.app-card-links span {
+    padding: 11px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--surface);
+    font-weight: 600;
+}
+.app-platform {
+    color: var(--muted);
+    font-size: 12px;
+}
+.app-install-section {
+    padding-bottom: 56px;
+}
+.app-install-section h2 {
+    font-size: clamp(28px, 3vw, 40px);
+    margin: 18px 0 28px;
+}
+.app-install-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.app-install-grid p {
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.7;
+}
+.app-install-grid a {
+    color: var(--blue);
+    text-decoration: underline;
+}
+.app-step {
+    display: block;
+    font-weight: 800;
+    font-size: 14px;
+    color: var(--blue);
+    margin-bottom: 20px;
+}
+.app-coming-soon {
+    display: inline-block;
+    border: 1px solid var(--line);
+    padding: 13px 20px;
+    border-radius: 13px;
+    font-weight: 700;
+    background: var(--surface);
+}
+.app-prompt {
+    box-sizing: border-box;
+    width: min(440px, calc(100% - 32px));
+    max-height: calc(100dvh - 32px);
+    overflow: auto;
+    border: 1px solid var(--line);
+    border-radius: 26px;
+    padding: 36px;
+    text-align: center;
+    background: var(--solid);
+    color: var(--text);
+    box-shadow: 0 24px 80px #0005;
+}
+.app-prompt::backdrop {
+    background: #081326a6;
+    backdrop-filter: blur(5px);
+}
+.app-prompt h2 {
+    font-size: 30px;
+}
+.app-prompt p:not(.app-kicker) {
+    color: var(--muted);
+    margin: 18px 0 24px;
+}
+.app-prompt-close {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    background: transparent;
+    color: var(--muted);
+    border: 0;
+    font-size: 28px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.app-prompt-later {
+    background: none;
+    border: 0;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 16px 0 0;
+    font-size: 13px;
+}
+.app-prompt a:focus-visible,
+.app-prompt button:focus-visible {
+    outline: 3px solid var(--blue);
+    outline-offset: 4px;
+}
+@media (max-width: 760px) {
+    .app-download-hero {
+        grid-template-columns: 1fr;
+        gap: 36px;
+        padding-top: 42px;
+        padding-bottom: 48px;
+    }
+    .app-download-card {
+        padding: 32px 22px;
+    }
+    .app-install-grid {
+        grid-template-columns: 1fr;
+    }
+    .app-prompt {
+        padding: 32px 24px;
+    }
+}
